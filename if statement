@@ -1,0 +1,62 @@
+public class App {
+    public static void main(String[] args) throws Exception {
+        
+        
+    
+
+        // Conditional Structure
+        boolean suspended = true;
+        boolean holiday = false;
+
+        if (suspended) {
+                System.out.println("stay at home");
+        }  
+        else if (holiday) {
+            System.out.println("spend time with family");
+        }
+        else 
+            {
+                
+            // Step 1
+            rideTricycle();
+        
+
+            // Step 2
+            rideJeep();
+
+            // Step 3
+            rideLRT2();
+
+            // Step 5
+            walk();
+    
+     }
+     
+     
+    } 
+
+    
+
+    static void rideTricycle() {
+        System.out.println("Ride tricycle at Baluyot court");
+        System.out.println("Exit tricycle at Savemore Sikatuna");
+    }
+
+    static void rideJeep () {
+        System.out.println("Ride jeep along Sikatuna");
+        System.out.println("Exit at Anonas Station");
+    }
+
+    static void rideLRT2() {
+        System.out.println("Ride at Anonas Station");
+        System.out.println("Exit at Legarda station");
+    }
+
+    static void walk() {
+        System.out.println("Walk through Jollibee");
+        System.out.println("Exit at National University");
+    }
+
+
+   
+}
